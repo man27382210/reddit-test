@@ -12,7 +12,7 @@ const PORT = 3000
 router.post('/graphql', koaBody(), graphqlKoa({ schema }))
 router.get('/graphql', graphqlKoa({ schema }))
 router.get('/graphiql', graphiqlKoa({ endpointURL: '/graphql' }))
-router.get('/', (ctx, next) => { ctx.body = 'hello'})
+router.get('/', (ctx, next) => { ctx.body = 'hello world ~ !'})
 
 app.use(cors())
 app.use(router.routes())

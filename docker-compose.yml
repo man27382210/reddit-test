@@ -7,4 +7,3 @@ services:
       - ./server:/usr/src/app
     ports:
       - "3000:3000"
-    command: "npm run fake-server-watch"

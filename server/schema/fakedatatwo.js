@@ -20,6 +20,11 @@ const books = [
         title: 'Jurassic Park',
         author: 'Michael Crichton',
     },
+    {
+        id: 3,
+        title: 'Pokemon',
+        author: 'Me'
+    }
 ]
 
 const BookType = new GraphQLObjectType({
