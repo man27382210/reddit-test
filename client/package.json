@@ -1,31 +1,17 @@
 {
-  "name": "reddis-test",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "apollo-client-preset": "^1.0.8",
-    "graphql": "^0.13.2",
-    "graphql-tag": "^2.8.0",
-    "react": "^16.2.0",
-    "react-apollo": "^2.1.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.1",
-    "recompose": "^0.26.0",
-    "redux": "^3.7.2"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4",
+    "react-waterfall": "^3.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
-  },
-  "devDependencies": {
-    "@storybook/react": "^3.3.15",
-    "@storybook/addon-actions": "^3.3.15",
-    "@storybook/addon-links": "^3.3.15",
-    "@storybook/addons": "^3.3.15",
-    "babel-core": "^6.26.0"
+    "eject": "react-scripts eject"
   }
 }
