@@ -1,6 +1,11 @@
 version: '0'
 services:
-
+  client:
+    build: ./client
+    volumes:
+      - ./client:/usr/src/app
+    ports:
+      - "3001:3001"
   server:
     build: ./server
     volumes: 
